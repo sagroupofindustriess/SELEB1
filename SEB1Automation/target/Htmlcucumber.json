@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-31T14:23:40.918Z",
+        "line": 3,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3512000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "Stepdefination.Navigation.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "some other precondition",
+            "match": {
+              "location": "Stepdefination.Navigation.some_other_precondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I complete action",
+            "match": {
+              "location": "Stepdefination.Navigation.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "Stepdefination.Navigation.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check more outcomes",
+            "match": {
+              "location": "Stepdefination.Navigation.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
